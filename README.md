@@ -1,6 +1,6 @@
 # JS-Basics
 
-*EVENT HANDLER*
+**EVENT HANDLER**
 
 - const variable = document.querySelector(".classname");
 
@@ -8,7 +8,7 @@
 
 - It gives  the color, font family and everything in the tag / class
 
-OBJECTS
+**OBJECTS**
 
 - obj {prop:value}
 - obj has 
@@ -21,7 +21,7 @@ OBJECTS
 - note that username shd be unique
 - each time a new instance is created
 
-New keyword 
+**NEW KEYWORD **
 
 - 1 new kw makes use of the entire syntax 
 - 2 It invokes the custom constructor and creating a unique instance every single time 
@@ -32,8 +32,9 @@ New keyword
 	- bcoz w/o "new" it refers to window obj which is {} empty obj so it gives undefined
 	- seperate instances of users are created
 
-This keyword 
- - this keyword either contains window object / whatever the global obj is
+**THIS KEYWORD **
+
+- this keyword either contains window object / whatever the global obj is
  	- in node global obj is {} empty obj 
  	- or the object we have predefined 
  - All regular function calls are window objects
