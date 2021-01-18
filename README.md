@@ -24,10 +24,11 @@ every time the user signs into a page
 
 new keyword 
 
-1 new kw makes use of the entire syntax 
-2 It invokes the custom constructor and creating a unique instance every single time 
-3 new creates a new copy of the entire obj 
-we saw that whenever there is a regular func call it refers to a window obj , 
+-1 new kw makes use of the entire syntax 
+-2 It invokes the custom constructor and creating a unique instance every single time 
+-3 new creates a new copy of the entire obj 
+
+We saw that whenever there is a regular func call it refers to a window obj , 
 w/o using new keyword it gives undefined
 bcoz w/o "new" it refers to window obj which is {} empty obj so it gives undefined 
 it is a regular fun call
