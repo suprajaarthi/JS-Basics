@@ -1,6 +1,6 @@
 # JS-Basics
 
-EVENT HANDLER 
+*EVENT HANDLER*
 
 - const variable = document.querySelector(".classname");
 
