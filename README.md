@@ -21,7 +21,7 @@
 - note that username shd be unique
 - each time a new instance is created
 
-**NEW KEYWORD **
+**NEW KEYWORD**
 
 - 1 new kw makes use of the entire syntax 
 - 2 It invokes the custom constructor and creating a unique instance every single time 
@@ -32,7 +32,7 @@
 	- bcoz w/o "new" it refers to window obj which is {} empty obj so it gives undefined
 	- seperate instances of users are created
 
-**THIS KEYWORD **
+**THIS KEYWORD**
 
 - this keyword either contains window object / whatever the global obj is
  	- in node global obj is {} empty obj 
