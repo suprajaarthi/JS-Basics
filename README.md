@@ -32,3 +32,10 @@ New keyword
 	- w/o using new keyword it gives undefined
 	- bcoz w/o "new" it refers to window obj which is {} empty obj so it gives undefined
 	- seperate instances of users are created
+
+This keyword 
+ - this keyword either contains window object / whatever the global obj is
+ 	- in node global obj is {} empty obj 
+ 	- or the object we have predefined 
+ - All regular function calls are window objects
+ - If it is an obj call rather than func call, this kw points to the object 
