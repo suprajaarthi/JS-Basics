@@ -22,7 +22,7 @@ every time the user signs into a page
 - note that username shd be unique
 - each time a new instance is created
 
-new keyword 
+New keyword 
 
 - 1 new kw makes use of the entire syntax 
 - 2 It invokes the custom constructor and creating a unique instance every single time 
