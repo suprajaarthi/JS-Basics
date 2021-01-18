@@ -3,20 +3,20 @@ Basics of Javascript
 
 EVENT HANDLER 
 
-const variable = document.querySelector(".classname");
+- const variable = document.querySelector(".classname");
 
-window.getComputedStyle(variable);
+- window.getComputedStyle(variable);
 
-gives  the color, font family and everything in the tag / class
+- It gives  the color, font family and everything in the tag / class
 
 OBJECTS
 
-obj {prop:value}
-obj has 
+- obj {prop:value}
+- obj has 
 	- constructor 
 	- prototype 
-Assume the following scenario : 
-every time the user signs into a page 
+- Assume the following scenario : 
+- every time the user signs into a page 
 - he is assigned certain properties 
 - props like fname,lname,..
 - note that username shd be unique
