@@ -1,5 +1,4 @@
 # JS-Basics
-Basics of Javascript
 
 EVENT HANDLER 
 
