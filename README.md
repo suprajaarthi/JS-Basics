@@ -1,4 +1,9 @@
 # JS-Basics
+**ARROW FUNCTION**
+
+```javascript
+var a="100";
+```
 
 **EVENT HANDLER**
 
