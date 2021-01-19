@@ -23,10 +23,10 @@
 
 **NEW KEYWORD**
 
-- 1 new kw makes use of the entire syntax 
-- 2 It invokes the custom constructor and creating a unique instance every single time 
-- 3 new creates a new copy of the entire obj 
-
+-  new kw makes use of the entire syntax 
+-  It invokes the custom constructor and creating a unique instance every single time 
+-  new creates a new copy of the entire obj 
+-  It creates unique instances and objects through the obj call
 	- We saw that whenever there is a regular func call it refers to a window obj , 
 	- w/o using new keyword it gives undefined
 	- bcoz w/o "new" it refers to window obj which is {} empty obj so it gives undefined
