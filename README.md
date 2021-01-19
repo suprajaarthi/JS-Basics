@@ -11,11 +11,11 @@ function add(a)
  // Remove function kewyord 
  add = (a) =>
  { 
- a=20;
+ a="supraja";
  return a+"arthi";
  }
  // Remove {} curly braces and parse parameter within () paranthesis
- add=(a=11) => a+"arthi";
+ add=(a="supraja") => a+"arthi";
 
 ```
 
