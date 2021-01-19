@@ -39,3 +39,13 @@
  	- or the object we have predefined 
  - All regular function calls are window objects
  - If it is an obj call rather than func call, this kw points to the object 
+
+<b>PROTOTYPES</b>
+Prototyes can inject your own stuff by
+- access or give properties 
+- give functions
+- getters 
+- setters
+- methods 
+- can act as constructors to override the properties
+It runs outside of the object and access the properties of the function
