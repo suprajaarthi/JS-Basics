@@ -41,6 +41,7 @@
  - If it is an obj call rather than func call, this kw points to the object 
 
 <b>PROTOTYPES</b>
+
 Prototyes can inject your own stuff by
 - access or give properties 
 - give functions
