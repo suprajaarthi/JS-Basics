@@ -2,7 +2,21 @@
 **ARROW FUNCTION**
 
 ```javascript
-var a="100";
+//regular function call
+function add(a)
+{ 
+  a="supraja";
+  return a+"arthi"; 
+ }
+ // Remove function kewyord 
+ add = (a) =>
+ { 
+ a=20;
+ return a+"wooo";
+ }
+ // Remove {} curly braces and parse parameter within () paranthesis
+ add=(a=11) => a+"supraja";
+
 ```
 
 **EVENT HANDLER**
