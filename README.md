@@ -48,4 +48,5 @@ Prototyes can inject your own stuff by
 - setters
 - methods 
 - can act as constructors to override the properties
-It runs outside of the object and access the properties of the function
+	- It runs outside of the object 
+	- And accesses the properties of the function
