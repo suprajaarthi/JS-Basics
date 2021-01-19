@@ -70,3 +70,6 @@ Prototyes can inject your own stuff by
 - can act as constructors to override the properties
 	- It runs outside of the object 
 	- And accesses the properties of the function
+- Prototype has its properties like 
+	- fill,filter 
+	- hasOwnProperty
