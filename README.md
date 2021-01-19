@@ -12,10 +12,10 @@ function add(a)
  add = (a) =>
  { 
  a=20;
- return a+"wooo";
+ return a+"arthi";
  }
  // Remove {} curly braces and parse parameter within () paranthesis
- add=(a=11) => a+"supraja";
+ add=(a=11) => a+"arthi";
 
 ```
 
