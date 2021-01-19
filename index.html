@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+	
+h2,h3,p,h1{
+	text-align: center;
+	
+	font-weight:  bold;
+}h1{
+	color:  #CD212A;
+}
+h2{
+	color: #F96714;
+}
+h3{
+	color: #C62168;
+}
+body{
+	background-color: #F0EAD6;
+}
+#ans{
+	background-color: #BE9EC9;
+}
+#para{
+	background-color: #F5D6C6;
+}
+</style>
+
+<h1>JavaScript Arrow Function</h1>
+<h2>BASIC SYNTAX</h2>
+<div id="ans">
+	
+	<p>function (a){
+  return a + 100;
+}
+<br><br>
+// Arrow Function Break Down
+<br><br>
+// 1. Remove the word "function" and place arrow between the argument and opening body bracket
+<br><br>
+(a) => {
+  return a + 100;
+}
+
+// 2. Remove the body brackets and word "return" -- the return is implied.
+<br><br>
+(a) => a + 100;
+
+// 3. Remove the argument parentheses
+<br><br>
+a => a + 100;</p>
+</div>
+<!-- <p>This example shows the syntax of an Arrow Function, and how to use it.</p> -->
+<div id="para">
+<h2>1 PARAMETER</h2>
+<p>var hello;
+
+hello = () => {
+  return "Hello World1!";
+}
+<br><br>
+function hello2() {
+	return "Hello World2!";
+}
+<br><br>
+function add(a) {
+	a="supu";
+	return a+"arthi";
+}
+<br><br>
+// breakdown the arrow fun <br><br>
+add2 = (a) => {
+	a=20;
+	return a+"wooo";
+}
+<br><br>
+// remove{} and "return"
+add3=(a=11) => a+"hulk";
+<br><br>
+//remove the unwanted () paranthesis <br><br>
+add4= (a=20) =>a+100;</p><br>
+</div>
+<br>
+<h2  style="color: #C62168">ANSWERS</h3>
+<div id="ans">
+<p id="1"></p>
+<p id="2"></p>
+<p id="3"></p>
+<p id="4"></p>
+<p id="5"></p>
+<p id="6"></p>
+</div>
+<br>
+<div id="para"><h2>2 PARAMETERS</h2>
+<p>
+function parrot(alpha ,beta){
+	alpha="bat";
+	beta="man";
+    return  alpha+beta+"wow";
+}<br><br>	
+// Arrow Function (no arguments) <br><br>	
+
+par21=(alpha=20,beta=40) => alpha + beta + 100;<br>	
+</p></div>
+<br>
+</div>
+<br>
+<h2 style="color: #C62168">ANSWERS</h3>
+<div id="ans">
+
+<br>
+<p id="wow"></p>
+<p id="wow2"></p>
+</div>
+<script>
+var hello;
+
+hello = () => {
+  return "Hello World1!";
+}
+
+function hello2() {
+	return "Hello World2!";
+}
+
+function add(a) {
+	a="supu";
+	return a+"arthi";
+}
+
+// breakdown the arrow fun 
+add2 = (a) => {
+	a=20;
+	return a+"wooo";
+}
+
+// remove{} and "return"
+add3=(a=11) => a+"hulk";
+
+//remove the unwanted () paranthesis 
+add4= (a=20) =>a+100;
+
+
+function parrot(alpha ,beta){
+	alpha="bat";
+	beta="man";
+    return  alpha+beta+"wow";
+}
+
+// Arrow Function (no arguments)
+
+par21=(alpha=20,beta=40) => alpha + beta + 100;
+
+
+document.getElementById("1").innerHTML = hello();
+document.getElementById("2").innerHTML = hello2();
+document.getElementById("3").innerHTML = add();
+document.getElementById("4").innerHTML = add2();
+document.getElementById("5").innerHTML =add3();
+document.getElementById("6").innerHTML = add4();
+// 2 para
+document.getElementById("wow2").innerHTML = parrot();
+document.getElementById("wow").innerHTML = par21();
+
+</script>
+
+</body>
+</html>
