@@ -28,7 +28,18 @@ function add(a)
 - It gives  the color, font family and everything in the tag / class
 
 **OBJECTS**
-
+```javascript
+var user = {
+name:"",
+getUserName:function()
+	console.log(`User name is ${this.name}`);
+}
+// Create obj using "create" keyword
+var cat = Object.create(user);
+cat.name="cat";
+// Create obj using "new" keyword
+var bat = new user("bat");
+```
 - obj {prop:value}
 - obj has 
 	- constructor 
