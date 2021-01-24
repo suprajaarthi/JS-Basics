@@ -91,7 +91,7 @@ Prototyes can inject your own stuff by
 - Syntax 
 ```javascript
 (function(){
-//statement;
+console.log("Say Hello");
 })();
 ```
 	
