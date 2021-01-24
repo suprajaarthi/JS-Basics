@@ -84,3 +84,15 @@ Prototyes can inject your own stuff by
 - Prototype has its properties like 
 	- fill,filter 
 	- hasOwnProperty
+	
+**SELF EXECUTING ANONYMOUS FUNCTIONS**
+- Does not have a name 
+- Cannot be called 
+- Syntax 
+```javascript
+(function(){
+//statement;
+})();
+```
+	
+
