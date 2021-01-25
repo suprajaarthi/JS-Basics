@@ -94,5 +94,8 @@ Prototyes can inject your own stuff by
 console.log("Say Hello");
 })();
 ```
-	
 
+**FUNCTIONAL PROGRAMMING**
+- Instead of being declared in global variable , values are passed in parameters
+- Instead of reusing the same variables, new variables are being used
+- Functions can be used in parameters and return values
