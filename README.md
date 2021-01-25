@@ -115,3 +115,12 @@ init();
 - init() is called in top of the global executional context 
 - sayFirstName() on top of init executional context, another context is going to mount up
 - init() gets executed 1st , then nested funcs get executed one by one 
+
+**CLOSURE**
+- Here init just returns the sayfirstName func 
+- So the init context is not cleared , it gets stacked 
+- So assigning it to a variable and calling it gives the o/p
+- The parameter can be passed as follows (x:=>any)(y:=>any) due to closure
+```javascript
+console.log(addition(7)(7));
+```
