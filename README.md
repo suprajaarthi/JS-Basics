@@ -99,3 +99,19 @@ console.log("Say Hello");
 - Instead of being declared in global variable , values are passed in parameters
 - Instead of reusing the same variables, new variables are being used
 - Functions can be used in parameters and return values
+
+**LEXICAL SCOPING**
+```javascript
+function init() {
+	var firstName = "SuprajCat";
+	function sayfirstName(argument) {
+		console.log(firstName);
+	}
+	sayfirstName();
+}
+init();
+}
+```
+- init() is called in top of the global executional context 
+- sayFirstName() on top of init executional context, another context is going to mount up
+- init() gets executed 1st , then nested funcs get executed one by one 
