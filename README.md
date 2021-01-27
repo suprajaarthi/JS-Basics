@@ -49,7 +49,7 @@ var bat = new user("bat");
 - he is assigned certain properties 
 - props like fname,lname,..
 - note that username shd be unique
-- each time a new instance is created
+- each time a new instance of object is created
 
 **NEW KEYWORD**
 
