@@ -48,7 +48,7 @@ var bat = new user("bat");
 - every time the user signs into a page 
 - he is assigned certain properties 
 - props like fname,lname,..
-- note that username shd be unique
+- note that username should be unique
 - each time a new instance of object is created
 
 **NEW KEYWORD**
