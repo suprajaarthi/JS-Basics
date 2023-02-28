@@ -1,0 +1,60 @@
+There are 8 basic data types in JavaScript.
+
+Seven primitive data types:
+	* number for numbers of any kind: integer or floating-point, integers are limited by ±(253-1).
+	* bigint for integer numbers of arbitrary length.
+	* string for strings. A string may have zero or more characters, there’s no separate single-character type.
+	* boolean for true/false.
+	* null for unknown values – a standalone type that has a single value null.
+	* undefined for unassigned values – a standalone type that has a single value undefined.
+	* symbol for unique identifiers.
+	* And one non-primitive data type:
+	* object for more complex data structures.
+The typeof operator allows us to see which type is stored in a variable.
+
+Usually used as typeof x, but typeof(x) is also possible.
+Returns a string with the name of the type, like "string".
+For null returns "object" – this is an error in the language, it’s not actually an object.
+
+
+In some languages, there is a special “character” type for a single character. For example, in the C language and in Java it is called “char”.
+
+In JavaScript, there is no such type. There’s only one type: string. A string may consist of zero characters (be empty), one character or many of them.
+
+Boolean 
+
+The boolean type has only two values: true and false.
+
+
+let isGreater = 4 > 1;
+
+alert( isGreater ); // true (the comparison result is "yes")
+
+Null 
+
+let age = null;
+
+In JavaScript, null is not a “reference to a non-existing object” or a “null pointer” like in some other languages.
+
+It’s just a special value which represents “nothing”, “empty” or “value unknown”.
+
+The code above states that age is unknown.
+
+
+typeof undefined // "undefined"
+
+typeof 0 // "number"
+
+typeof 10n // "bigint"
+
+typeof true // "boolean"
+
+typeof "foo" // "string"
+
+typeof Symbol("id") // "symbol"
+
+typeof Math // "object"  (1)
+
+typeof null // "object"  (2)
+
+typeof alert // "function"  (3)

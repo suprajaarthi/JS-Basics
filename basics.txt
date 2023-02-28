@@ -1,0 +1,51 @@
+Engine(browser) reads/parses -> Script -> Machine code  -> Runs pretty fastn
+
+The ECMA-262 specification contains the most in-depth, detailed and formalized information about JavaScript. It defines the language.
+
+The old HTML standard, HTML4, required a script to have a type. Usually it was type="text/javascript"
+
+The language attribute: <script language=…>
+This attribute was meant to show the language of the script. This attribute no longer makes sense because JavaScript is the default language. There is no need to use it.
+
+If src is set, the script content is ignored.
+A single <script> tag can’t have both the src attribute and code inside.
+
+This won’t work:
+
+<script src="file.js">
+  alert(1); // the content is ignored, because src is set
+</script>
+We must choose either an external <script src="…"> or a regular <script> with code.
+
+The example above can be split into two scripts to work:
+
+<script src="file.js"></script>
+<script>
+  alert(1);
+</script>
+
+
+But there are situations where JavaScript “fails” to assume a semicolon where it is really needed.
+
+Errors which occur in such cases are quite hard to find and fix.
+
+An example of an error
+If you’re curious to see a concrete example of such an error, check this code out:
+
+alert("Hello");
+
+[1, 2].forEach(alert);
+No need to think about the meaning of the brackets [] and forEach yet. We’ll study them later. For now, just remember the result of running the code: it shows Hello, then 1, then 2.
+
+Now let’s remove the semicolon after the alert:
+
+alert("Hello")
+
+[1, 2].forEach(alert);
+
+It doesn't work 
+
+Here’s how the engine sees it:
+
+alert("Hello")[1, 2].forEach(alert);
+Looks weird, right? Such merging in this case is just wrong. We need to put a semicolon after alert for the code to work correctly.
